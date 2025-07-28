@@ -1,0 +1,37 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+# Excluir toda la carpeta .idea excepto algunos archivos útiles (opcional)
+.idea/*
+!.idea/codeStyles
+!.idea/vcs.xml
+
+# Configuraciones de ejecución locales de Android Studio
+.idea/runConfigurations/
+
+# Archivos de configuración del emulador / dispositivos locales
+.idea/deploymentTargetSelector.xml
+.idea/AndroidProjectSystem.xml
+
+# APKs y artefactos generados
+*.apk
+*.ap_
+
+# Archivos de configuración del entorno local
+.env
+*.keystore
+
+# Archivos de bloqueo o caché
+*.lock
